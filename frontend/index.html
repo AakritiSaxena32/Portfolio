@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aakriti Saxena — CS Undergrad & Developer</title>
+<meta name="description" content="Portfolio of Aakriti Saxena, a Computer Science undergrad building ML, algorithms, and Java/Spring Boot projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">aakriti<span class="dot">.</span>dev</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">
+          <span class="knob">✨</span>
+        </button>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero container">
+      <div class="reveal">
+        <p class="eyebrow">// Hello, world</p>
+        <h1>Building meaningful, <span class="gradient-text">purpose-driven</span> solutions for real problems.</h1>
+        <p class="lead">I'm <strong>Aakriti Saxena</strong> — a Computer Science undergraduate passionate about creating intuitive digital experiences, solving real-world challenges, and continuously learning through every project I build.</p>
+        <div class="cta-row">
+          <a href="projects.html" class="btn btn-primary">View my work 🚀</a>
+          <a href="contact.html" class="btn btn-outline">Get in touch</a>
+        </div>
+        <div class="social-row" style="margin-top:24px;">
+          <a href="https://github.com/AakritiSaxena32" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/aakriti-saxena-9a6048283/" target="_blank" rel="noopener" aria-label="LinkedIn"> <i class="fab fa-linkedin-in"></i></a>
+          <a href="https://leetcode.com/u/aakriti_saxena_32/" target="_blank" rel="noopener" aria-label="LeetCode"><i class="fa-solid fa-laptop-code"></i></a>
+        </div>
+      </div>
+
+      <div class="photo-frame reveal">
+        <div class="inner">
+          <!-- Replace this div's background with your photo:
+               style="background-image:url('assets/your-photo.jpg')" -->
+          📸<br>Add your photo here<br>
+          <small style="opacity:.7">assets/your-photo.jpg</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="stat-row reveal">
+        <div class="stat-card">
+          <div class="num">350+</div>
+          <div class="label">LeetCode problems solved</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">1523</div>
+          <div class="label">LeetCode rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="num">8.55</div>
+          <div class="label">CGPA at Graphic Era University</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+    <div class="section-head reveal">
+        <p class="eyebrow">What I Do</p>
+        <h2>What I Do</h2>
+        <p>My interests revolve around solving problems, developing software, and continuously improving my skills.</p>
+    </div>
+
+    <div class="project-grid">
+
+        <article class="project-card reveal">
+            <h3>Problem Solving</h3>
+            <p>
+                Solving coding challenges, optimizing algorithms, and applying
+                efficient data structures to build better software solutions.
+            </p>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Software Development</h3>
+            <p>
+                Designing and developing responsive, reliable, and user-friendly
+                applications with clean, maintainable code.
+            </p>
+        </article>
+
+        <article class="project-card reveal">
+            <h3>Continuous Learning</h3>
+            <p>
+                Exploring new technologies and strengthening my skills through
+                projects, coding practice, and hands-on experience.
+            </p>
+        </article>
+
+    </div>
+</section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Aakriti. Built with vibrant colors and too many doodles.
+    </div>
+  </footer>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

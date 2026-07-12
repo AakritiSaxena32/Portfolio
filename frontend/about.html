@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Aakriti Saxena</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">aakriti<span class="dot">.</span>dev</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">
+          <span class="knob">✨</span>
+        </button>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Get to know me</p>
+        <h2>About <span class="gradient-text">me</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="about-card">
+            <h3>Who I am</h3>
+            <p style="margin-top:12px; color:var(--text-dim); line-height:1.7;">
+              I'm a Computer Science undergraduate at Graphic Era Deemed to be University, 
+              currently in my 4th year, with a strong interest in software development and 
+              problem solving. I enjoy designing and building efficient, scalable applications 
+              while writing clean, maintainable code. Through academic coursework and personal 
+              projects, I've strengthened my understanding of data structures, algorithms, 
+              object-oriented programming, and full-stack development.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Skills</h3>
+            <div class="skill-pills">
+              <span class="pill">C</span>
+              <span class="pill">C++</span>
+              <span class="pill">Java</span>
+              <span class="pill">HTML / CSS</span>
+              <span class="pill">STL / JCF</span>
+              <span class="pill">Git</span>
+              <span class="pill">DSA</span>
+              <span class="pill">DBMS</span>
+              <span class="pill">OOP</span>
+              <span class="pill">OS</span>
+              <span class="pill">CN</span>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <h3>Education</h3>
+            <div class="timeline" style="margin-top: 24px;">
+              <div class="timeline-item">
+                <h4>B.Tech, Computer Science & Engineering</h4>
+                <div class="when">Graphic Era Deemed to be University · 2023 - 2027</div>
+                <p style="color:var(--text-dim);">CGPA: 8.55 <br> Coursework: OOP (C++/Java), Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks.</p>
+              </div>
+              <div class="timeline-item">
+                <h4>12th Class — 88.6%</h4>
+                <div class="when">Jaycees Public School · 2023</div>
+              </div>
+              <div class="timeline-item">
+                <h4>10th Class — 91.67%</h4>
+                <div class="when">Jaycees Public School · 2021</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>Journey so far</h3>
+          <div class="timeline" style="margin-top: 24px;">
+            <div class="timeline-item">
+              <h4>Travel Planner (Gen AI)</h4>
+              <div class="when">Java, Spring Boot, Gemini API</div>
+              <p style="color:var(--text-dim);">Built a travel planner using Java Spring Boot and the 
+                Gemini API to generate personalized trip itineraries based on user preferences, budget, 
+                duration, and destination. Integrated AI-powered destination recommendations, activity 
+                suggestions, and day-wise travel planning through an interactive interface.</p>
+            </div>
+            <div class="timeline-item">
+              <h4>Smart Route Finder</h4>
+              <div class="when">JavaScript, HTML, CSS</div>
+              <p style="color:var(--text-dim);">Designed a hybrid route optimization system using 
+                Ant Colony Optimization and Genetic Algorithm to find the best routes under real-time 
+                traffic conditions. Simulated dynamic traffic, variable edge weights, and time-dependent 
+                route costs with an interactive route visualization interface.</p>
+            </div>
+            <div class="timeline-item">
+              <h4>Credit Card Fraud Detection System</h4>
+              <div class="when">Python, Scikit-learn, Pandas</div>
+              <p style="color:var(--text-dim);">Developed a machine learning system to detect fraudulent 
+                credit card transactions using the Random Forest Classifier. Addressed class imbalance 
+                in the dataset and achieved an F1-score of 86.96% with 99.95% accuracy for fraud 
+                detection.</p>
+            </div>
+          </div>
+          <h3 style="margin-top:28px;">Coding profiles</h3>
+          <div class="skill-pills" style="margin-top:16px;">
+            <a class="pill" href="https://leetcode.com/u/aakriti_saxena_32/" target="_blank" rel="noopener">LeetCode — 1523 rating, 350+ solved</a>
+            <span class="pill">GeeksforGeeks — 50+ solved</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Aakriti. Built with vibrant colors and too many doodles.
+    </div>
+  </footer>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

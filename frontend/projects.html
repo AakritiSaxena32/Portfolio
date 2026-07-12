@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Aakriti Saxena</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">aakriti<span class="dot">.</span>dev</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">
+          <span class="knob">✨</span>
+        </button>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section container">
+      <div class="section-head reveal">
+        <p class="eyebrow">My work</p>
+        <h2>Projects I've <span class="gradient-text">built</span></h2>
+        <p>Projects showcasing my experience in software development and problem solving.</p>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+        <p class="loading-msg">Loading projects…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Aakriti. Built with vibrant colors and too many doodles.
+    </div>
+  </footer>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
