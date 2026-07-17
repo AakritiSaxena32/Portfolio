@@ -1,3 +1,11 @@
+const dns = require('dns');
+dns.setDefaultResultOrder('ipv4first');
+
+const net = require('net');
+if (typeof net.setDefaultAutoSelectFamily === 'function') {
+  net.setDefaultAutoSelectFamily(false);
+}
+
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
